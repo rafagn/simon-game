@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../shared/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../shared/bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="../shared/jquery/jquery-2.4.4.min.js"></script>
+  <script src="../shared/bootstrap/js/bootstrap.min.js"></script>
+  <script src="./scripts.js"></script>
+  <title>Simon Game</title>
+</head>
+
+<body>
+
+  <div id='main'>
+    <div id="title"></div>
+    <div id="container">
+      <div id="b0" class="sim-button"></div>
+      <div id="b1" class="sim-button"></div><br/>
+      <div id="b2" class="sim-button"></div>
+      <div id="b3" class="sim-button"></div>
+      <div id="center1">
+        <div id="center2">
+          <div id="controls" class="container-fluid">
+            <div id="game_name">Simon<sup>&reg;</sup></div>
+            <div class="row-fluid">
+              <div class="col-xs-5">
+                <div id="count">--</div>
+                <div class="ticker" style="margin-left: 8px;">COUNT</div>
+              </div>
+              <div id="start" class="col-xs-3">
+                <div class="led" style="visibility: hidden;"></div>
+                <div id="red_button" class="button red clicker"></div>
+                <div class="ticker" style="margin-left: -0px;">START</div>
+              </div>
+              <div id="strict" class="col-xs-3">
+                <div id="strict_led" class="led"></div>
+                <div id="yellow_button" class="button yellow clicker"></div>
+                <div class="ticker" style="margin-left: -0px;">STRICT</div>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div id="switch" class="col-xs-12">
+                <span class="ticker"> OFF </span>
+                <div id='sw' style='margin-left: 5px; margin-right: 2px;'>
+                  <div id="s_off"></div>
+                  <div id="s_on"></div>
+                </div>
+                <span class="ticker"> ON </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

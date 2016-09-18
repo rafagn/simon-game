@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body {
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+40,b7ad70+100;Brown+3D */
+  background: #d5cea6; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #d5cea6 0%, #c9c190 40%, #b7ad70 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #d5cea6 0%,#c9c190 40%,#b7ad70 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#main {
+  margin-top: 5%;
+  width: 100%;
+  text-align: center
+}
+
+#container {
+  display: inline-block;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 450px;
+  height: 450px;
+  border-radius: 100%;
+  background-color: #333333;
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);w:
+}
+
+#b0 {
+  position: relative;
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 2.5%;
+  margin-bottom: 2.5%;
+  display: inline-block;
+  width: 42.5%;
+  height: 42.5%;
+  border: 1px solid #00A74A;
+  background: #00A74A;
+  border-radius: 100% 0 0 0;
+  box-shadow: black 1px 1px 5px;
+}
+
+#b1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 2.5%;
+  margin-bottom: 2.5%;
+  width: 42.5%;
+  height: 42.5%;
+  border: 1px solid #9F0F17;
+  background: #9F0F17;
+  border-radius: 0 100% 0 0;
+  box-shadow: black 1px 1px 5px;
+}
+
+#b2 {
+  position: relative;
+  margin-left: 1%;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+  display: inline-block;
+  width: 42.5%;
+  height: 42.5%;
+  border: 1px solid #CCA707;
+  background: #CCA707;
+  border-radius: 0 0 0 100%;
+  box-shadow: black 1px 1px 5px;
+}
+
+#b3 {
+  position: relative;
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  width: 42.5%;
+  height: 42.5%;
+  border: 1px solid #094A8F;
+  background: #094A8F;
+  border-radius: 0 0 100% 0;
+  box-shadow: black 1px 1px 5px;
+}
+
+#center1 {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: #333333;
+  border-radius: 100%;
+  box-shadow: black 1px 1px 5px;
+}
+
+#center2 {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #ECE7EE;
+  border-radius: 100%;
+}
+
+#controls {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+#game_name {
+  margin-top: 15%;
+  font-family: 'Alfa Slab One', monospace;
+  font-size: 45px;
+}
+
+sup {
+  font-size: 50%;
+  font-weight: lighter;
+}
+
+#count {
+  font-family: 'VT323', monospace;
+  width: 50px;
+  height: 100%;
+  border: 3px solid #333333;
+  border-radius: 20%;
+  background-color: #32050C;
+  font-size: 30px;
+  color: #430710;
+}
+
+.ticker {
+  font-family: 'Oswald';
+  font-size: 70%;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#controls:nth-child(2) {
+  border: 1px solid red;
+  height: 100px;
+  text-align:center;
+}
+
+.button {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #333333;
+  border-radius: 30px;
+  box-shadow: black 1px 1px 3px;
+  margin-top: 30%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+#sw {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#s_on, #s_off {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #333333;
+  border-radius: 1px;
+}
+
+#s_off {
+  background-color: #3193DE;
+}
+#s_on {
+  background-color: #222222;
+  margin-left: -5px;
+  margin-right: 5px;
+}
+
+.clicker:active {
+  box-shadow: none;
+}
+
+.led {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #333333;
+  background-color: #32050C;
+  border-radius: 100%;
+  margin-left: 50%;
+}
+
+.strict_led {
+    background-color: #32050C;
+}
+
+/* #DC0D29: intense red (for ON state)
